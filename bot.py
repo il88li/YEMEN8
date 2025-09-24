@@ -88,4 +88,4 @@ async def handle_main_menu(update: Update, context: ContextTypes.DEFAULT_TYPE):
         keyboard = [
             [InlineKeyboardButton("🐍 Python", callback_data="run_python")],
             [InlineKeyboardButton("🐘 PHP", callback_data="run_php")],
-            [InlineKeyboardButton("↩️ رجوع", callback_data="main_menu
+            [InlineKeyboardButton("↩️ رجوع", callback_data="main_menu"
